@@ -6,7 +6,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        < Person/>
+        < Person name="Random Person" age={Math.floor(Math.random() * 32)}/>
+        < Person name="Jamar" age="31"/>
+        < Person name="Rose" age="61"/>
+        < Person name="Jordan" age="39"/>
       </div>
     );
   }
